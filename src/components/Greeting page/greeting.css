@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor__principal{
+    width: 100%;
+    height: 1000px;
+    background: linear-gradient(red 80% ,orangered);
+}
+.imagen__principal{
+    width: 300px;
+    height: 150px;
+}
+.imagen__principal2{
+    width: 600px;
+    height: 300px;
+    margin-top: 20px;
+    filter: saturate(150%);
+}
+.informacion__principal{
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    color: whitesmoke;
+    margin-top: -50px;
+}
+.info{
+    margin-top: 100px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+.informacion__principal--logo{
+    width: 380px;
+    height: 100px;
+    margin-left: 90px;
+    margin-top: -50px;
+    filter: saturate(150%);
+}
+.contenedor__entrada{
+    display: flex;
+    flex-direction:row ;
+    justify-content: center;
+    align-content: center;
+}
+.imagen__principal--pokemon{
+    width: 400px;
+    height: 250px;
+}
+.contenedor__entrada--pokebola{
+    width: 100px;
+    height: 100px;
+}
+.contenedor__entrada--pokebola:hover{
+    filter: drop-shadow(1px -1px 30px yellow);
+}
+.contenedor__entrada--entrar{
+    margin-top: 25px;
+    margin-left: 10px;
+    font-size: 25px;
+    color: white;
+}
+.contenedor_imagenes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top:100px;
+}
+
+@media (max-width: 576px) {
+
+    .contenedor__principal{
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(red 80% ,orangered);
+    }
+    .imagen__principal{
+        width: 200px;
+        height: 100px;
+    }
+    .imagen__principal2{
+        width: 150px;
+        height: 100px;
+        margin-top: 70px;
+        margin-left: 110px;
+        image-rendering: optimizeQuality;
+    }
+    .informacion__principal{
+        display: grid;
+        grid-template-columns:  220px 200px;
+        font-weight: bold;
+        color: whitesmoke; 
+        height: 300px;   
+    }
+    .info{
+        font-size: 12px;
+        width: 300px;
+        height: 300px;
+    }
+    .informacion__principal--logo{
+        width: 300px;
+        height: 100px;
+        margin-left: 90px;
+        margin-top: -50px;
+        filter: saturate(150%);
+        visibility: hidden;
+    }
+    .contenedor__entrada{
+        display: flex;
+        flex-direction:row ;
+        justify-content: center;
+        align-content: center;
+    }
+    .imagen__principal--pokemon{
+        width: 80px;
+        height: 80px;
+    }
+    .contenedor__entrada--pokebola{
+        width: 100px;
+        height: 100px;
+    }
+    .contenedor__entrada--pokebola:hover{
+        filter: drop-shadow(1px -1px 30px yellow);
+    }
+    .contenedor__entrada--entrar{
+        margin-top: 25px;
+        margin-left: 10px;
+        font-size: 25px;
+        color: white;
+    }
+    .contenedor_imagenes{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top:100px;
+    }
+    
+    
+
+
+
+
+
+}
